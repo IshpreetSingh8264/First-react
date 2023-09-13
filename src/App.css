@@ -188,10 +188,10 @@ header {
 
 }
 
-.header_nav_left>span {
-    background: url(../public/categories.png) no-repeat;
+/* .header_nav_left>span {
+    background: url(./img/categories.png) no-repeat;
 
-}
+} */
 
 .main_top {
     width: 100%;

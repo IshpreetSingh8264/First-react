@@ -1,53 +1,58 @@
-import React from 'react'
+import React from 'react';
+import barbieLogo from './img/barbielogo.avif';
+import nerfLogo from './img/nerflogo.avif';
+import legoLogo from './img/legologo.webp';
+import disneyLogo from './img/disneylogo.avif';
+import funskoolLogo from './img/funskoollogo.avif';
+import transformerImage from './img/transformer.webp';
+import starWarsImage from './img/starwars.webp';
+import hotwheelsLogo from './img/hotwheelslogo.avif';
 
 const Maintop = () => {
   return (
-    <div class="main_top">
-
-      <div class="main_top_content">
+    <div className="main_top">
+      <div className="main_top_content">
         <a href="#">
-          <img src="./img/barbielogo.avif" alt=""/>
+          <img src={barbieLogo} alt="" />
         </a>
       </div>
-      <div class="main_top_content">
+      <div className="main_top_content">
         <a href="#">
-          <img src="./img/nerflogo.avif" alt=""/>
+          <img src={nerfLogo} alt="" />
         </a>
       </div>
-      <div class="main_top_content">
+      <div className="main_top_content">
         <a href="#">
-          <img src="./img/legologo.webp" alt=""/>
+          <img src={legoLogo} alt="" />
         </a>
       </div>
-      <div class="main_top_content">
+      <div className="main_top_content">
         <a href="#">
-          <img src="./img/disneylogo.avif" alt=""/>
+          <img src={disneyLogo} alt="" />
         </a>
       </div>
-      <div class="main_top_content">
+      <div className="main_top_content">
         <a href="#">
-          <img src="./img/funskoollogo.avif" alt=""/>
+          <img src={funskoolLogo} alt="" />
         </a>
       </div>
-      <div class="main_top_content">
+      <div className="main_top_content">
         <a href="#">
-          <img src="./img/transformer.webp" alt=""/>
+          <img src={transformerImage} alt="" />
         </a>
       </div>
-      <div class="main_top_content">
+      <div className="main_top_content">
         <a href="#">
-          <img src="./img/starwars.webp" alt=""/>
+          <img src={starWarsImage} alt="" />
         </a>
       </div>
-      <div class="main_top_content">
+      <div className="main_top_content">
         <a href="#">
-          <img src="./img/hotwheelslogo.avif" alt=""/>
+          <img src={hotwheelsLogo} alt="" />
         </a>
       </div>
-
-
     </div>
-  )
+  );
 }
 
-export default Maintop
+export default Maintop;

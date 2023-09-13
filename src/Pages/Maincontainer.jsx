@@ -1,5 +1,9 @@
 import React from 'react'
 import Footer from './Footer'
+import {  Playshifuimg, transformerimg, skillmaticimg, kidimg1, kidimg2, kidimg3, kidimg4, kidimg5, kidimg6, frozen1, hotwheelsimg, nerfgun, spinmasterimg, marveltoyimg, marveltoyimg2, msyteryboximg, monopolyimg, monopolyimg2, pictionary, babyalive, beyblade, barbie1, barbie2, barbie3, barbie4, mobiikiimg,cimg, truckimg, smileimg, moneyimg, shielding} from './img'
+
+
+
 
 const Maincontainer = () => {
   return (
@@ -8,17 +12,17 @@ const Maincontainer = () => {
     <div class="main-img-disp">
         <div class="main_disp_img">
             <a href="#">
-                <img src="./img/Playshifuimg.avif" alt=""/>
+                <img src={Playshifuimg} alt=""/>
             </a>
         </div>
         <div class="main_disp_img">
             <a href="#">
-                <img src="./img/transformerimg.webp" alt=""/>
+                <img src={transformerimg} alt=""/>
             </a>
         </div>
         <div class="main_disp_img">
             <a href="#">
-                <img src="./img/skillmaticimg.webp" alt=""/>
+                <img src={skillmaticimg} alt=""/>
             </a>
         </div>
     </div>
@@ -30,40 +34,40 @@ const Maincontainer = () => {
 
         <div class="shopbyage_div">
             <div class="shopbyage__list">
-                <a href="#"><img src="./img/kidimg1.webp" alt=""/></a>
+                <a href="#"><img src={kidimg1} alt=""/></a>
                 <a href="#">
                     <p>0-12 MONTHS</p>
                 </a>
             </div>
 
             <div class="shopbyage__list">
-                <a href="#"><img src="./img/kidsimg2.webp" alt=""/></a>
+                <a href="#"><img src={kidimg2} alt=""/></a>
                 <a href="#">
                     <p>1-3 MONTHS</p>
                 </a>
             </div>
 
             <div class="shopbyage__list">
-                <a href="#"><img src="./img/kidsimg3.webp" alt=""/></a>
+                <a href="#"><img src={kidimg3} alt=""/></a>
                 <a href="#">
                     <p>4-7 MONTHS</p>
                 </a>
             </div>
 
             <div class="shopbyage__list">
-                <a href="#"><img src="./img/kidimg4.webp" alt=""/></a>
+                <a href="#"><img src={kidimg4} alt=""/></a>
                 <a href="#">
                     <p>8-10 MONTHS</p>
                 </a>
             </div>
             <div class="shopbyage__list">
-                <a href="#"><img src="./img/kidimg5.webp" alt=""/></a>
+                <a href="#"><img src={kidimg5} alt=""/></a>
                 <a href="#">
                     <p>10-14 MONTHS</p>
                 </a>
             </div>
             <div class="shopbyage__list">
-                <a href="#"><img src="./img/kidimg6.webp" alt=""/></a>
+                <a href="#"><img src={kidimg6} alt=""/></a>
                 <a href="#">
                     <p>14+ MONTHS</p>
                 </a>
@@ -73,8 +77,8 @@ const Maincontainer = () => {
     </div>
 
     <div class="display_imgcontainer1">
-        <div class="displimg"><a href="#"><img src="./img/frozen1.webp" alt=""/></a></div>
-        <div class="displimg"><a href="#"><img src="./img/hotwheelsimg.webp" alt=""/></a></div>
+        <div class="displimg"><a href="#"><img src={frozen1} alt=""/></a></div>
+        <div class="displimg"><a href="#"><img src={hotwheelsimg} alt=""/></a></div>
     </div>
 
     <div class="deals">
@@ -93,7 +97,7 @@ const Maincontainer = () => {
                 <div class="dealitem">
                     <div class="dealitemimg">
                         <span>-30%</span>
-                        <a href="#"><img src="./img/nerfgun.webp" alt=""/></a>
+                        <a href="#"><img src={nerfgun} alt=""/></a>
                     </div>
                     <div class="dealitemtitle"><a href="#">NERF</a></div>
                     <div class="dealitemdescription">
@@ -115,7 +119,7 @@ const Maincontainer = () => {
                 <div class="dealitem">
                     <div class="dealitemimg">
                         <span>-15%</span>
-                        <a href="#"><img src="./img/spinmasterimg.webp" alt=""/></a>
+                        <a href="#"><img src={spinmasterimg} alt=""/></a>
                     </div>
                     <div class="dealitemtitle"><a href="#">SPIN MASTER</a></div>
                     <div class="dealitemdescription">
@@ -138,7 +142,7 @@ const Maincontainer = () => {
                 <div class="dealitem">
                     <div class="dealitemimg">
                         <span>-15%</span>
-                        <a href="#"><img src="./img/marveltoyimg.webp" alt=""/></a>
+                        <a href="#"><img src={marveltoyimg} alt=""/></a>
                     </div>
                     <div class="dealitemtitle"><a href="#">MARVEL</a></div>
                     <div class="dealitemdescription">
@@ -163,7 +167,7 @@ const Maincontainer = () => {
                 <div class="dealitem">
                     <div class="dealitemimg">
                         <span>-15%</span>
-                        <a href="#"><img src="./img/marveltoyimg2.webp" alt=""/></a>
+                        <a href="#"><img src={marveltoyimg2} alt=""/></a>
                     </div>
                     <div class="dealitemtitle"><a href="#">Marvel</a></div>
                     <div class="dealitemdescription">
@@ -192,7 +196,7 @@ const Maincontainer = () => {
     </div>
 
     <div class="mysterybox">
-        <div class="mysterybox_left"><a href="#"><img class="mysterybox_left_img" src="./img/msyteryboximg.webp"
+        <div class="mysterybox_left"><a href="#"><img class="mysterybox_left_img" src={msyteryboximg}
                     alt=""/></a></div>
         <div class="mysterybox_right">
             <span>Limited Stocks*</span>
@@ -211,7 +215,7 @@ const Maincontainer = () => {
             <div class="dealitem">
                 <div class="dealitemimg">
                     <span>-20%</span>
-                    <a href="#"><img src="./img/monopolyimg.webp" alt=""/></a>
+                    <a href="#"><img src={monopolyimg} alt=""/></a>
                 </div>
                 <div class="dealitemtitle"><a href="#">UNO</a></div>
                 <div class="dealitemdescription">
@@ -235,7 +239,7 @@ const Maincontainer = () => {
             <div class="dealitem">
                 <div class="dealitemimg">
                     <span>-30%</span>
-                    <a href="#"><img src="./img/nerfgun.webp" alt=""/></a>
+                    <a href="#"><img src={nerfgun} alt=""/></a>
                 </div>
                 <div class="dealitemtitle"><a href="#">NERF</a></div>
                 <div class="dealitemdescription">
@@ -257,7 +261,7 @@ const Maincontainer = () => {
             <div class="dealitem">
                 <div class="dealitemimg">
                     <span>-20%</span>
-                    <a href="#"><img src="./img/monopolyimg2.webp" alt=""/></a>
+                    <a href="#"><img src={monopolyimg2} alt=""/></a>
                 </div>
                 <div class="dealitemtitle"><a href="#">MONPOLY</a></div>
                 <div class="dealitemdescription">
@@ -281,7 +285,7 @@ const Maincontainer = () => {
             <div class="dealitem">
                 <div class="dealitemimg">
                     <span>-50%</span>
-                    <a href="#"><img src="./img/pictionary.webp" alt=""/></a>
+                    <a href="#"><img src={pictionary} alt=""/></a>
                 </div>
                 <div class="dealitemtitle"><a href="#">MATTEL</a></div>
                 <div class="dealitemdescription">
@@ -306,8 +310,8 @@ const Maincontainer = () => {
     </div>
 
     <div class="display_imgcontainer2">
-        <div class="displimg"><a href="#"><img src="./img/babyalive.webp" alt=""/></a></div>
-        <div class="displimg"><a href="#"><img src="./img/beyblade.webp" alt=""/></a></div>
+        <div class="displimg"><a href="#"><img src={babyalive} alt=""/></a></div>
+        <div class="displimg"><a href="#"><img src={beyblade} alt=""/></a></div>
     </div>
 
     <div class="newlaunches">
@@ -317,7 +321,7 @@ const Maincontainer = () => {
                 <div class="dealitem">
                     <div class="dealitemimg">
                         <span>New</span>
-                        <a href="#"><img src="./img/barbie1.jpg" alt=""/></a>
+                        <a href="#"><img src={barbie1} alt=""/></a>
                     </div>
                     <div class="dealitemtitle"><a href="#">BARBIE</a></div>
                     <div class="dealitemdescription">
@@ -345,7 +349,7 @@ const Maincontainer = () => {
                 <div class="dealitem">
                     <div class="dealitemimg">
                         <span>New</span>
-                        <a href="#"><img src="./img/barbie2.webp" alt=""/></a>
+                        <a href="#"><img src={barbie2} alt=""/></a>
                     </div>
                     <div class="dealitemtitle"><a href="#">BARBIE</a></div>
                     <div class="dealitemdescription">
@@ -373,7 +377,7 @@ const Maincontainer = () => {
                 <div class="dealitem">
                     <div class="dealitemimg">
                         <span>New</span>
-                        <a href="#"><img src="./img/barbie3.webp" alt=""/></a>
+                        <a href="#"><img src={barbie3} alt=""/></a>
                     </div>
                     <div class="dealitemtitle"><a href="#">BARBIE</a></div>
                     <div class="dealitemdescription">
@@ -401,7 +405,7 @@ const Maincontainer = () => {
                 <div class="dealitem">
                     <div class="dealitemimg">
                         <span>New</span>
-                        <a href="#"><img src="./img/barbie4.webp" alt=""/></a>
+                        <a href="#"><img src={barbie4} alt=""/></a>
                     </div>
                     <div class="dealitemtitle"><a href="#">BARBIE</a></div>
                     <div class="dealitemdescription">
@@ -430,7 +434,7 @@ const Maincontainer = () => {
     </div>
 
     <div class="advertisement"><a href="#">
-            <img src="./img/mobiikiimg.webp" alt=""/></a>
+            <img src={mobiikiimg} alt=""/></a>
     </div>
 
     <div class="whychoseus">
@@ -439,7 +443,7 @@ const Maincontainer = () => {
         <div class="reasonscontainer">
             <div class="reasonitem">
                 <a href="#">
-                    <span class="reasonitemimg"><img src="./img/cimg.png" alt=""/></span>
+                    <span class="reasonitemimg"><img src={cimg} alt=""/></span>
                     <span class="reasondesc">Original Products</span>
                 </a>
             </div>
@@ -447,7 +451,7 @@ const Maincontainer = () => {
 
             <div class="reasonitem">
                 <a href="#">
-                    <span class="reasonitemimg"><img src="./img/truckimg.png" alt=""/></span>
+                    <span class="reasonitemimg"><img src={truckimg} alt=""/></span>
                     <span class="reasondesc">Shipping Across India</span>
                 </a>
             </div>
@@ -455,7 +459,7 @@ const Maincontainer = () => {
 
             <div class="reasonitem">
                 <a href="#">
-                    <span class="reasonitemimg"><img src="./img/smileimg.png" alt=""/></span>
+                    <span class="reasonitemimg"><img src={smileimg} alt=""/></span>
                     <span class="reasondesc">A+ Customer Service</span>
                 </a>
             </div>
@@ -463,7 +467,7 @@ const Maincontainer = () => {
 
             <div class="reasonitem">
                 <a href="#">
-                    <span class="reasonitemimg"><img src="./img/moneyimg.png" alt=""/></span>
+                    <span class="reasonitemimg"><img src={moneyimg} alt=""/></span>
                     <span class="reasondesc">COD Available</span>
                 </a>
             </div>
@@ -471,7 +475,7 @@ const Maincontainer = () => {
 
             <div class="reasonitem">
                 <a href="#">
-                    <span class="reasonitemimg"><img src="./img/shieldimg.png" alt=""/></span>
+                    <span class="reasonitemimg"><img src={shielding} alt=""/></span>
                     <span class="reasondesc">Secured Payments</span>
                 </a>
             </div>

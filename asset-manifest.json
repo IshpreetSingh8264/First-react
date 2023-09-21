@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/First-react/static/css/main.9d5d0b3c.css",
-    "main.js": "/First-react/static/js/main.6be6e33d.js",
+    "main.css": "/First-react/static/css/main.40d153fd.css",
+    "main.js": "/First-react/static/js/main.0ece712d.js",
     "static/js/787.ce878c45.chunk.js": "/First-react/static/js/787.ce878c45.chunk.js",
     "static/media/barbie1.jpg": "/First-react/static/media/barbie1.5832dfee1e1672c6e1ad.jpg",
     "static/media/transformerimg.webp": "/First-react/static/media/transformerimg.063f5d75b65841ad4328.webp",
@@ -42,12 +42,12 @@
     "static/media/logo.svg": "/First-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/starwars.webp": "/First-react/static/media/starwars.0640cb0aac17b2b23a6d.webp",
     "index.html": "/First-react/index.html",
-    "main.9d5d0b3c.css.map": "/First-react/static/css/main.9d5d0b3c.css.map",
-    "main.6be6e33d.js.map": "/First-react/static/js/main.6be6e33d.js.map",
+    "main.40d153fd.css.map": "/First-react/static/css/main.40d153fd.css.map",
+    "main.0ece712d.js.map": "/First-react/static/js/main.0ece712d.js.map",
     "787.ce878c45.chunk.js.map": "/First-react/static/js/787.ce878c45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d5d0b3c.css",
-    "static/js/main.6be6e33d.js"
+    "static/css/main.40d153fd.css",
+    "static/js/main.0ece712d.js"
   ]
 }
